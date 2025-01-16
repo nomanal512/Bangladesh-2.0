@@ -7,6 +7,7 @@
 
   .backgd{
     background-color: #F1F1F3;
+    margin: 20px 20px;
   }
 
 .banner{
@@ -81,6 +82,10 @@
     font-size: 16px;
     border: none;
 }
+.btn-1:hover{
+    background-color: #1cb86f;
+    color: white;
+}
 .btn-2{
     background-color: #09A15C;
     font-weight: bold;
@@ -89,6 +94,10 @@
     border-radius: 5px;
     font-size: 16px;
     border: none;
+}
+.btn-2:hover{
+    background-color: #1cb86f;
+    color: white;
 }
 .btn-3{
     background-color: #FFC239;
@@ -99,6 +108,10 @@
     font-size: 16px;
     border: none;
 }
+.btn-3:hover{
+    background-color: #1cb86f;
+    color: white;
+}
 .yo{
     color: #0e0e0e80;
 }
@@ -107,6 +120,10 @@
     padding: 10px 20px;
     border-radius: 10px;
     background-color: white;
+    background-image: url(../assets/quote-bg.png) ;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+
 }
 
 .p{
@@ -149,9 +166,20 @@
     text-align: center;
     align-items: center;
 }
+.donation-card-1{
+    padding: 24px 24px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: larger;
+}
+.donation-card-1:hover {
+    background-color: #12c370;
+    color: white;
+  }
 
 .donation-card:hover {
-    background-color: #C6E4D6;
+    background-color: #1cb86f;
     color: white;
   }
   .input{
@@ -163,7 +191,24 @@
   }
 
   .primary-btn:hover{
-    background-color: #C6E4D6;
+    background-color: #22a467;
     color: white;
 
   }
+
+.newsletter{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    margin: 20px 20px;
+}
+
+.input{
+    width: 500px;
+    height: 48px;
+    border-radius: 10px;
+    
+}
