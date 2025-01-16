@@ -5,8 +5,8 @@
     font-style: normal;
   }
 
-  .{
-    background-color: #f5f5f5b1;
+  .backgd{
+    background-color: #F1F1F3;
   }
 
 .banner{
@@ -19,6 +19,7 @@
     
    
 }
+
 
 
 .banner-title{
@@ -105,5 +106,28 @@
     margin: 20px 20px;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: #f5f5f5b6;
+    background-color: white;
+}
+
+.p{
+    color: rgba(0, 0, 0, 0.667);
+}
+
+.news{
+    margin: 20px 20px;
+}
+.news-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.h{
+    color: rgba(0, 0, 0, 0.79);
+}
+.im{
+    border-radius: 15px;
 }
