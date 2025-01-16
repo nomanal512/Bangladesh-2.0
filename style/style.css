@@ -131,3 +131,39 @@
 .im{
     border-radius: 15px;
 }
+
+.donation-options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.donation-card{
+    padding: 24px 24px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: larger;
+}
+.donate{
+    margin: 40px 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.donation-card:hover {
+    background-color: #C6E4D6;
+    color: white;
+  }
+  .input{
+    width: 800px;
+    text-align: center;
+    height: 45px;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .primary-btn:hover{
+    background-color: #C6E4D6;
+    color: white;
+
+  }
